@@ -1,0 +1,94 @@
+1. ?- father(X, 'Queen Elizabeth II').
+   X = 'King George VI' ;
+
+2. ?- grandmother(X, 'Queen Elizabeth II').
+   X = 'Queen Mary' ;
+
+3. ?- grandfather(X, 'Queen Elizabeth II').
+   X = 'King George V' ;
+
+4. ?- grandparent(X, 'Queen Elizabeth II').
+   X = 'King George V' ;
+   X = 'Queen Mary' ;
+
+5. ?- grandparent('Queen Elizabeth II', X).
+   X = 'Prince William' ;
+   X = 'Prince Henry' ;
+
+6. ?- sibling(X, 'Queen Elizabeth II').
+   X = 'Princess Margaret' ;
+
+7. ?- son(X, 'Queen Elizabeth II').
+   false.
+
+8. ?- daughter(X, 'Queen Elizabeth II').
+   X = 'King George VI' ;
+   X = 'Lady Elizabeth Bowes-Lyon'.
+
+9. ?- aunt(X, 'Lady Diana Spencer').
+   X = 'Princess Margaret' ;
+   X = 'Princess Margaret' ;
+
+10. ?- spouse(X, 'Prince William').
+    X = 'Catherine Middleton'.
+
+11. ?- ancestor(X, 'Prince Henry').
+    X = 'Prince Charles' ;
+    X = 'Lady Diana Spencer' ;
+    X = 'Queen Elizabeth II' ;
+    X = 'Prince Philip' ;
+    X = 'King George VI' ;
+    X = 'Lady Elizabeth Bowes-Lyon' ;
+    X = 'King George V' ;
+    X = 'Queen Mary' ;
+    X = 'King Edward VII' ;
+    X = 'Princess Alexandra of Denmark' ;
+    X = 'Prince Albert' ;
+    X = 'Queen Victoria' ;
+
+12. ?- descendant('Queen Victoria', Y).
+    Y = 'King Edward VII' ;
+    Y = 'King George V' ;
+    Y = 'King Edward VIII' ;
+    Y = 'King George VI' ;
+    Y = 'Queen Elizabeth II' ;
+    Y = 'Princess Margaret' ;
+    Y = 'Prince Charles' ;
+    Y = 'Princess Anne' ;
+    Y = 'Prince Andrew' ;
+    Y = 'Prince Edward' ;
+    Y = 'Prince William' ;
+    Y = 'Prince Henry' ;
+    Y = 'Prince George' ;
+    Y = 'Princess Charlotte' ;
+    Y = 'Viscount Linley' ;
+    Y = 'Lady Sarah Chatto' ;
+
+13. ?- older('Prince Henry', 'Prince William').
+    false.
+
+14. ?- older(X, 'Queen Elizabeth II').
+    X = 'Queen Victoria' ;
+    X = 'Princess Alexandra of Denmark' ;
+    X = 'Queen Mary' ;
+    X = 'Mrs Simpson' ;
+    X = 'Lady Elizabeth Bowes-Lyon' ;
+    X = 'Prince Albert' ;
+    X = 'King Edward VII' ;
+    X = 'King George V' ;
+    X = 'King Edward VIII' ;
+    X = 'King George VI' ;
+    X = 'Prince Philip' ;
+
+15. ?- regentWhenBorn(X, 'Queen Elizabeth II').
+    X = 'King George V' ;
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.

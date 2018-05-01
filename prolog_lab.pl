@@ -5,6 +5,7 @@ mother(M,C):- parent(M,C), female(M).
 father(F,C):- parent(F,C), male(F).
 
 spouse(H,W):- married(H,W).
+spouse(H,W):- married(W,H).
 
 child(P,C):- parent(P,C).
 
