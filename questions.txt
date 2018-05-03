@@ -83,12 +83,17 @@
 15. ?- regentWhenBorn(X, 'Queen Elizabeth II').
     X = 'King George V' ;
 
-16.
+16. One thing I like about Prolog is that it is very concise. There is not a bunch
+    of extra stuff required like in Java or similar languages.
 
-17.
+17. One downside of Prolog is that since it is so concise and does a lot for you,
+    if is more difficult to debug and distinguish if the code that you write is
+    actually doing what you think it is.
 
-18.
+18. I did enjoy this lab. The logical problems we had to solve were
+    fun to figure out.
 
-19.
+19. 5 hours
 
-20.
+20. I honestly have no idea if I will ever use Prolog again. If I do, it
+    will probably be for logic/rule based problems.
